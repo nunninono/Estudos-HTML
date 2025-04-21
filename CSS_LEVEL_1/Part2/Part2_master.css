@@ -1,0 +1,26 @@
+/*selected tag{
+    property: value;
+}*/
+
+body{
+    background: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/541000/541707-auckland.jpg);
+    background-repeat: no-repeat;
+    /*you can also use: background-color: blue;*/
+}
+
+div{
+    background-color: rgb(111, 111, 238);
+    border-color: rgb(19, 49, 19);    /*Color*/
+    border-width: 5px;     /*Size*/
+    border-style: double;      /*Style*/ 
+}
+
+/*Independe se o paragraph esta dentro de div ou span, escolhe a cor de todos*/
+p{
+    color: yellow;
+}
+
+span{
+    background: red;
+    color: black;
+}

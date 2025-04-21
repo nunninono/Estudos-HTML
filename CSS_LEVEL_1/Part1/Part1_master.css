@@ -1,0 +1,22 @@
+/* It's a comment */
+
+/*selected tags {
+    property: value;
+}*/
+
+h1{
+    color: red;
+}
+
+li{
+    color: rgb(145, 255, 0);
+}
+
+p{
+    color: #a5b5cf;
+}
+
+h4{
+    /*color: rgba(red, green, blue, alpha);  alpha é o quão translucido é*/
+    color: rgba(37, 0, 250, 0.5);
+}
