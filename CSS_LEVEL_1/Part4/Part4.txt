@@ -1,0 +1,6 @@
+- Aula apenas pra ensinar que o inspecionar do google tambem serve pra sua file html css
+
+- De forma que vc pode editar e ver as edições em tempo real, sem precisar salvar o arquivo e atualizar a pagina
+
+- Ponto negativo: vc nao muda o codigo em si, apenas edita a página em questão. Pra alterar a file html
+  seria preciso que voce copiasse o codigo alterado dentro do inspecionar e colasse na sua file local
