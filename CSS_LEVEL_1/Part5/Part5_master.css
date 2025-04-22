@@ -1,11 +1,11 @@
-li {
+li {    /* Hierarquia base */
     color: red;
 }
 
-.topitems {
+.topitems {     /* Acima na hierarquia */
     color: blue;
 }
 
-#two {
+#two {      /* Acima na hierarquia */
     border: 2px solid black;
 }
