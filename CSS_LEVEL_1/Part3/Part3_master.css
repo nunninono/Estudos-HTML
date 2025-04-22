@@ -1,1 +1,48 @@
+/*div{
+    color: red;
+}*/
 
+/* Usa-se . pra indicar que está se referindo a uma CLASS */
+
+.firstDiv {
+    color: red;
+}
+
+.secondDiv {
+    color: blue;
+}
+
+/* Usa-se # pra indicar que está se referindo a um ID */
+
+#singledOut {
+    color: violet;
+    text-decoration: line-through;
+}
+
+
+/* Gera uma borda em volta dos elementos de uma ul que vem imediatamente após um elemento do tipo h3 */
+h3 + ul {
+    border: 4px dotted purple;
+
+}
+
+/* seleciona todos os elemenos da lista do tipo ANCHOR TAG(que carregam link) */
+li a {
+    color: red;
+}
+
+/* Voce pode escolher uma ESPECIFIC ANCHOR TAG pra atribuir modificações */
+li a[href="www.npr.org"] {
+    color: blueviolet;
+    border: 5px solid gray;
+}
+
+/* o asterisco refere a tudo na pagina, exceto os IDs
+*{
+    color: black;
+}*/
+
+/*body{
+    background: url(https://www.lance.com.br/outros-lances/wp-content/uploads/2025/04/praia-mar_1744933529891.jpg);
+    background-repeat: repeat;
+}*/
