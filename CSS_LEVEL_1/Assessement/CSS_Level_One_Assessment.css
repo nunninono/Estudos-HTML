@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    border: 1px solid black;
+}
+
+h2 {
+    color: purple;
+}
+
+input { 
+    border: 2px solid rgb(153, 6, 6);
+}
+
+div p {
+    background-color: #fffb00;
+}
+
+#textblock {
+    border: 5px solid gray;
+    width: 800px;
+    height: 400px;
+}
+
+ol .google {
+    color: red;
+}
+
+#itemOne {
+    text-decoration: overline;
+    color: purple;
+}
+
+.exit {
+    background-color: blue;
+    border: 4px dashed yellow;
+}
+
+/* Seta a cor do link pra mostar que ele ainda nao foi acessado */
+a:visited {
+    color: blue;
+}
