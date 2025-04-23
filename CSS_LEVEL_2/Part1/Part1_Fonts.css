@@ -1,0 +1,38 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: monospace;
+}
+
+body {
+    font-size: 20px;
+}
+
+#two {
+    font-size: 2.0em;
+}
+
+p {
+    font-style: italic;
+    font-weight:bold;
+}
+
+/* Escolhe onde vai ser o alinhamento do texto */
+h1 {
+    text-align: center;
+}
+
+/* Não funcionou */
+h2 {
+    text-align: center;
+    font-family: 'ArchitectsDaughterRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+1em = 16px
+2em = 32px
+*/
