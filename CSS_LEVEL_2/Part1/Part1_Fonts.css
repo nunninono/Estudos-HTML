@@ -24,11 +24,11 @@ h1 {
     text-align: center;
 }
 
-/* Não funcionou */
+/* Importar uma fonte de fora (Google Fonts) */
 h2 {
     text-align: center;
-    font-family: 'ArchitectsDaughterRegular';
-    font-weight: normal;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
