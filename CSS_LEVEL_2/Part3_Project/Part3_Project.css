@@ -1,0 +1,35 @@
+h2 {
+    text-align: center;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+td {
+    background-color: black;
+    height: 400px;  /* Altura */
+    width: 200px;  /* Largura */
+    border: 6px solid white;  /* Gera o espaçamento */
+}
+
+table {
+    margin: auto;  /* Centraliza */
+}
+
+
+/* Adicionando cor ao quadrado da tabela */
+#one {
+    background-color: #227C9D;
+}
+#two {
+    background-color: #17C3B2;
+}
+#three {
+    background-color: #FFCB77;
+}
+#four {
+    background-color: #C4D6B0;
+}
+#five {
+    background-color: #FE6D73;
+}
