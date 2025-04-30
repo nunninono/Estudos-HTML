@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        
+        <!-- Link do Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <style>
+            .boxy {
+                background-color: #b3ddff;
+                border: 2px solid black
+            }
+        </style>
+
+        <!-- INFOS SOBRE TAMANHOS DOS GRIDS
+        col- → Extra small (padrão, mobile)
+
+        col-sm- → ≥ 576px
+
+        col-md- → ≥ 768px
+
+        col-lg- → ≥ 992px
+
+        col-xl- → ≥ 1200px
+
+        col-xxl- → ≥ 1400px
+        -->
+
+        <!-- Large size -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-4 boxy">COL Large 4</div>
+                <div class="col-lg-4 boxy">COL Large 4</div>
+                <div class="col-lg-4 boxy">COL Large 4</div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <!-- Medium size -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 boxy">COL Med 6</div>
+                <div class="col-md-6 boxy">COL Med 6</div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <!-- Small size -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 boxy">COL XS 6</div>
+                <div class="col-6 boxy">COL XS 6</div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 boxy">ONE</div>
+                <div class="col-lg-3 col-sm-6 boxy">TWO</div>
+                <div class="col-lg-3 col-sm-6 boxy">THREE</div>
+                <div class="col-lg-3 col-sm-6 boxy">FOUR</div>
+            </div>
+        </div>
+
+        <p></p>
+
+        <div class="row">
+            <div class="col-lg-6 boxy">
+                <div class="row">
+                    <div class="col-lg-6 boxy">NEST ONE</div>
+                    <div class="col-lg-6 boxy">NEST TWO</div>
+                </div>
+            </div>
+            <div class="col-lg-6 boxy"> TOP LEVEL</div>
+        </div>
+
+    </body>
+</html>
