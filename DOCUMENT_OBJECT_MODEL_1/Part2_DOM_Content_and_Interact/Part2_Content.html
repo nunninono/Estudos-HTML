@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM Content and Interact</title>
+        
+        <!-- Link do JavaScript -->
+        <script src="Part2.Interact.js" defer></script>
+    </head>
+    <body>
+        
+        <h1>Let's talk about changing text, HTML content, and attributes with the DOM</h1>
+
+        <p>
+            To Edit Styles, we've already seen we can use the .style tag. Now if we want to edit 
+            <b>actual html or text</b> or <u>attributes</u> we can use different methods. If you want 
+            to change the text, html content, or attributes you can use the following:
+        </p>
+
+        <ul>
+            <li>myvariable.textContent - This return just the text</li>
+            <li>myvariable.innerHTML - This return actual html</li>
+            <li>myvariable.getAttribute() - This returns the original attribute</li>
+            <li>myvariable.setAttribute() - This allowed you to set an attribute</li>
+        </ul>
+
+        <h4 id="special">I'm another <i>header</i> with the special id. <a href="https://web.facebook.com/">FACEBOOK LINK</a></h4>
+
+    </body>
+</html>
